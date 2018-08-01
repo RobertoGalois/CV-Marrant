@@ -1,0 +1,198 @@
+html
+{
+}
+
+body
+{
+}
+
+div#edging
+{
+	width: 30px;
+	padding: 0px;
+	display: none;
+}
+
+div#cv
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+header
+{
+	display: block;
+}
+
+header section#banner
+{
+	width: 100%;
+}
+
+footer
+{
+	margin-right: 0px;
+	font-size: 14px;
+}
+
+footer strong
+{
+}
+
+footer table
+{
+}
+
+/* Utilisation de la police personnalisée ici */
+h1#identification
+{
+	font-size: 2em;
+	height: 70px;
+	text-align: center;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1#identification em
+{
+}
+
+h1#identification strong
+{
+}
+
+
+aside#presentation
+{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 11px;
+}
+
+
+aside#presentation strong
+{
+}
+
+
+aside#presentation span#ma_super_startup
+{
+}
+
+
+aside#presentation cite
+{
+}
+
+figure#photo_identite
+{
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure#photo_identite img
+{
+}
+
+figure#photo_identite figcaption
+{
+}
+
+
+section#informations
+{
+	display: block;
+	margin-right: 0px;
+}
+
+span.date
+{
+}
+
+
+h3
+{
+}
+
+em
+{
+}
+
+strong
+{
+}
+
+section.info_panel
+{
+	width: auto;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.info_panel ul, ol
+{	
+	padding-left: 5px;
+}
+
+section#experience
+{
+	/* 2 parametres passés, rgb en premier puis rgba, au cas où le format rgba ne soit pas pris en compte par le navigateur */
+	background-color: rgb(168,169,254);
+	background-color: rgba(150,150,255,0.8);
+}
+
+section#experience ul
+{
+}
+
+section#competences
+{
+}
+
+section#competences ul
+{
+}
+
+section#formation
+{
+}
+
+section#formation ul
+{
+}
+
+span.information
+{
+	display:block;
+	margin-bottom: 10px;
+}
+
+
+section#qualites
+{
+}
+
+
+section#qualites ol
+{
+}
+
+mark
+{
+}
+
+
+div.line
+{
+	display: block;
+	justify-content: space-around;
+}
+
+div.line div
+{
+
+}

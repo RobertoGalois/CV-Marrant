@@ -1,0 +1,378 @@
+/* Police personnalisée utilisant différents formats ptous la compatibilité */
+@font-face {
+    font-family: 'rubikbold';
+    src: url('./font/rubik-bold-webfont.eot');
+    src: url('./font/rubik-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font/rubik-bold-webfont.woff2') format('woff2'),
+         url('./font/rubik-bold-webfont.woff') format('woff'),
+         url('./font/rubik-bold-webfont.ttf') format('truetype'),
+         url('./font/rubik-bold-webfont.svg#rubikbold') format('svg');
+}
+
+html
+{
+	width: 100%;
+	height: 100%;
+	font-family: verdana;
+	font-size: 0.8em;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+
+	background-image: url('./images/bg.jpg');
+	background-color: #F1F4F9;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/* Le liseret */
+div#edging
+{
+	width: 70px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+
+	background-color: #4f509e;
+	border-radius: 0px 10px 10px 0px;
+}
+
+div#cv
+{
+	width: auto;
+	margin: 0px;
+	margin-left: 100px;
+	padding: 0px;
+}
+
+header
+{
+	width: auto;
+	display: flex;
+}
+
+header section#banner
+{
+	width: 100%;
+}
+
+footer
+{
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+
+	/* 2 parametres passés, rgb en premier puis rgba, au cas où le format rgba ne soit pas pris en compte par le navigateur */
+	background-color: rgb(193, 195, 250);
+	background-color: rgba(143, 145, 200, 0.8);
+	box-shadow: 6px 6px 20px black;
+	text-shadow: 15px 15px 25px white;
+	border: black 2px solid;
+	border-radius: 10px;
+	font-size: 14px;
+
+	display: block;
+}
+
+footer strong
+{
+	text-decoration: underline;
+}
+
+footer table
+{
+	width: 100%;
+}
+
+/* Utilisation de la police personnalisée ici */
+h1#identification
+{
+	width: auto;
+	height: 90px;
+
+	padding-left: 30px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+	border: black 2px solid;
+	border-radius: 10px;
+
+	/* 2 parametres passés, rgb en premier puis rgba, au cas où le format rgba ne soit pas pris en compte par le navigateur */
+	background-color: rgb(193, 195, 250);
+	background-color: rgba(143, 145, 200, 0.8);
+	box-shadow: 6px 6px 20px black;
+
+	font-family: rubikbold;
+	font-size: 4em;
+	color: black;
+	text-decoration: underline;
+	text-decoration: overline;
+	text-shadow: 15px 15px 25px white;
+}
+
+h1#identification em
+{
+	font-style: italic;
+}
+
+h1#identification strong
+{
+	font-weight: bold;
+}
+
+aside#presentation
+{
+	width: auto;
+	margin: 0px;
+	margin-bottom: 40px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	border: black 1px dotted;
+	border-radius: 10px;
+
+	/* 2 parametres passés, rgb en premier puis rgba, au cas où le format rgba ne soit pas pris en compte par le navigateur */
+	background-color: rgb(248,236,114);
+	background-color: rgba(254,231,024,0.4);
+	box-shadow: 12px 12px 40px black;
+}
+
+
+aside#presentation strong
+{
+	font-style: italic;
+	font-weight: normal;
+	line-height: 2;
+	text-decoration: none;
+	font-size: 1.3em;
+	margin-left:50px;
+}
+
+
+aside#presentation span#ma_super_startup
+{
+	color: darkred;
+	text-decoration: underline;
+}
+
+
+aside#presentation cite
+{
+	font-style: italic;
+	font-size: 12px;
+}
+
+figure#photo_identite
+{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+figure#photo_identite img
+{
+	border: #4f509e 5px inset;
+	border-radius: 10px;
+	box-shadow: 12px 12px 40px black;
+}
+
+figure#photo_identite figcaption
+{
+	padding-top: 5px;
+	text-align: center;
+	font-style: italic;
+	text-decoration: underline;
+	border: black 2px dashed;
+	border-radius: 10px;
+}
+
+section#informations
+{
+	width: auto;
+	margin: 0px;
+	margin-right: 30px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+span.date
+{
+	text-decoration: underline;
+}
+
+
+h3
+{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 17px;
+	text-decoration: underline;
+}
+
+em
+{
+
+}
+
+strong
+{
+
+}
+
+
+section.info_panel
+{
+	border: #D5FEF9 1px solid;
+	margin: 10px;
+	padding: 30px;
+	box-shadow: 6px 6px 20px black;
+}
+
+section.info_panel ul, ol
+{	
+	text-align: justify;
+	padding-left: 20px;
+}
+
+section#experience
+{
+	/* 2 parametres passés, rgb en premier puis rgba, au cas où le format rgba ne soit pas pris en compte par le navigateur */
+	background-color: rgb(168,169,254);
+	background-color: rgba(150,150,255,0.8);
+
+	min-width: 200px;
+}
+
+section#experience ul
+{
+	list-style-type: circle;
+}
+
+section#competences
+{
+	/* 2 parametres passés, rgb en premier puis rgba, au cas où le format rgba ne soit pas pris en compte par le navigateur */
+	background-color: rgb(200,224,235);
+	background-color: rgba(191,219,232,0.8);
+
+	text-align: left;
+	min-width: 200px;
+}
+
+section#competences ul
+{
+	list-style-type: square;
+	line-height: 2;
+}
+
+section#formation
+{
+	/* 2 parametres passés, rgb en premier puis rgba, au cas où le format rgba ne soit pas pris en compte par le navigateur */
+	background-color: rgb(226,227,228);
+	background-color: rgba(229,223,223,0.8);
+
+	min-width: 200px;
+}
+
+section#formation ul
+{
+	list-style-type: disc;
+}
+
+span.information
+{
+	display:block;
+	margin-bottom: 10px;
+}
+
+
+section#qualites
+{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 6px 6px 20px black;
+
+	/* 2 parametres passés, rgb en premier puis rgba, au cas où le format rgba ne soit pas pris en compte par le navigateur */
+	background-color: rgb(250,234,90);
+	background-color: rgba(254,231,24,0.7);
+
+	font-size: 1.2em;
+	font-style: italic;
+	text-decoration: none;
+	
+	min-width: 90px;
+}
+
+
+section#qualites ol
+{
+	text-align: left;
+	line-height: 2;
+}
+
+mark
+{
+	background-color: transparent;
+	color: red;
+}
+
+
+div.line
+{
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+div.line div
+{
+	width: 50%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* suppression du liseret pour la version mobile */
+@media all and (max-device-width: 480px)
+{
+	div#edging
+	{
+		display: none;
+	}
+
+	div#cv
+	{
+		margin-left: 30px;
+	}
+
+}
